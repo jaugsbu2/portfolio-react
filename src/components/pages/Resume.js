@@ -1,23 +1,47 @@
 import React from 'react';
 
-export default function Blog() {
+const downloadResume = () => {
+  fetch('resume.pdf').then(response => {
+    response.blob().then(blob => {
+      const fileURL = window.URL.createObjectURL(blob);
+      let alink = document.createElement('a');
+      alink.href = fileURL;
+      alink.download = 'resume.pdf';
+      alink.click();
+    })
+  })
+}
+
+export default function Resume() {
   return (
     <div>
-      <h1>Blog Page</h1>
+      <h1>Resume</h1>
+      <button onClick={downloadResume}>Download Resume</button>
+      <h2>
+        Web Development Proficiencies
+      </h2>
+      <h3>
+        Front End
+      </h3>
       <p>
-        Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
-        Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
-        dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus
-        sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum nunc,
-        sed pretium risus rutrum eget. Nam consequat, ligula in faucibus
-        vestibulum, nisi justo laoreet risus, luctus luctus mi lacus sit amet
-        libero. Class aptent taciti sociosqu ad litora torquent per conubia
-        nostra, per inceptos himenaeos. Mauris pretium condimentum tellus eget
-        lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-        Donec placerat accumsan mi, ut congue neque placerat eu. Donec nec ipsum
-        in velit pellentesque vehicula sit amet at augue. Maecenas aliquam
-        bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
-        est ligula suscipit velit, sed bibendum turpis dui in sapien.
+        Javascript<br></br>
+        HTML<br></br>
+        CSS<br></br>
+        JQuery<br></br>
+        Bootstrap<br></br>
+        Responsive Design<br></br>
+        React<br></br>
+      </p>
+      <h3>
+        Back End
+      </h3>
+      <p>
+        API's<br></br>
+        Express <br></br>
+        Node Js<br></br>
+        MySQL<br></br>
+        MongoDB <br></br>
+        Mongoose<br></br>
       </p>
     </div>
   );
