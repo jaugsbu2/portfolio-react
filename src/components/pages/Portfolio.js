@@ -4,7 +4,7 @@ import "../../styles/portfolio.css";
 export default function Portfolio() {
   return (
     <div className="work">
-      <h1>My work</h1>
+      {/* <h1>My work</h1> */}
       <div className="workcontainer">
         <div className="napster">
           <a

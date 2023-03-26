@@ -5,14 +5,14 @@
 }
 
 .work {
-  background-color: var(--gray);
+  /* background-color: var(--gray); */
   color: var(--black);
 }
 
 .workcontainer {
+  /* background-color: black; */
   display: flex;
   flex-wrap: wrap;
-  padding: 30px;
   align-items: center;
   justify-content: center;
 }

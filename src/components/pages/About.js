@@ -1,10 +1,12 @@
 import React from "react";
+import "../../styles/about.css";
 
 export default function About() {
   return (
     <div>
-      <h1>About Me</h1>
-      <div>
+      {/* <h1>About Me</h1> */}
+      <div className="aboutcontainer">
+        <div className="p aboutflex">
         <img src="images/about-pic.jpeg" alt="Josh Augsburger Picture"></img>
         <p>
           I am the Engineering Manager for Smart Bar USA. Smart bar USA is a
@@ -31,6 +33,7 @@ export default function About() {
           the UC Berkeley Bootcamp, I have found software development to be very
           interesting and fun!
         </p>
+        </div>
       </div>
     </div>
   );

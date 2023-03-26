@@ -1,8 +1,20 @@
 import React from "react";
 
+const styles = {
+  navStyles: {
+      background: 'black',
+      height: 60,
+      position: 'fixed',
+      top: 0,
+      width: '100%',
+      color: 'white',
+  },
+
+}
+
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <div className="nav justify-content-between">
+    <div className="nav justify-content-between" style={styles.navStyles}>
       <h2>Josh Augsburger</h2>
       <ul className="nav nav-tabs">
         <li className="nav-item">
