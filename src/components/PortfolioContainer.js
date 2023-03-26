@@ -1,12 +1,11 @@
 import React, { useState } from "react";
-import NavTabs from "./NavTabs";
+import Navigation from "./Navigation";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 import Resume from "./pages/Resume";
 import Contact from "./pages/Contact";
 import Footer from "./Footer";
 import "../styles/reset.css";
-import "../styles/nav.css";
 
 
 export default function PortfolioContainer() {
@@ -29,7 +28,7 @@ export default function PortfolioContainer() {
 
   return (
     <div>
-      <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
+      <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
       <figure className="hero-image">
       <div>
         {renderPage()}

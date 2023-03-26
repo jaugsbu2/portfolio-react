@@ -15,6 +15,7 @@
 
 .nav-link {
     color: whitesmoke !important;
+    padding-inline: 10px !important;
 }
 
 @media (max-width: 768px) {

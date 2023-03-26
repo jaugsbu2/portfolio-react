@@ -14,7 +14,7 @@ const styles = {
     marginBottom: 30,
   },
     textMessage: {
-    width: 400,
+    width: 325,
     height: 200,
     marginBottom: 30,
   },

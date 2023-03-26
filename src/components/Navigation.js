@@ -1,13 +1,14 @@
 import React from "react";
+import "../styles/nav.css";
 
 const styles = {
   name: {
 paddingLeft: 20,
   },
+  nav: {
+    paddingInline: 20,
+      },
 
-  navPills: {
-    color: 'white',
-  }
 
 }
 
@@ -22,7 +23,7 @@ function NavTabs({ currentPage, handlePageChange }) {
             onClick={() => handlePageChange("About")}
             className={currentPage === "About" ? "nav-link active" : "nav-link"}
           >
-            About Me
+            About
           </a>
         </li>
         <li className="nav-item">
