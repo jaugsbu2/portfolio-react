@@ -1,0 +1,124 @@
+:root {
+  --white: whitesmoke;
+  --black: #282828;
+  --gray: lightgray;
+}
+
+.work {
+  background-color: var(--gray);
+  color: var(--black);
+}
+
+.workcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardText {
+  background-color: var(--black);
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  border-radius: 15px;
+  max-height: 50%;
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+  padding-right: 20px;
+  padding-bottom: 3px;
+  align-items: center;
+}
+.cardText a {
+  color: var(--white);
+  text-decoration: none;
+  padding: 15px;
+}
+
+.githubLogo {
+background-image: url(../../public/images/github-mark-white.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: contain;
+padding-right: 50px;
+height: 100%;
+border-radius: 10px;
+}
+
+.button {
+  height: 250px;
+  display: none;
+  }
+
+.napster {
+  flex: 1 0 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../public/images/Napster2.0app.png);
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-radius: 15px;
+    margin: 1%;
+    min-width: 325px;
+    max-width: 50%;
+  }
+
+  .herd {
+    flex: 1 0 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../public/images/herdapp.png);
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-radius: 15px;
+    margin: 1%;
+    min-width: 325px;
+    max-width: 50%;
+  }
+  
+  .blog {
+    flex: 1 0 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../public/images/blog.png);
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-radius: 15px;
+    margin: 1%;
+    min-width: 325px;
+    max-width: 50%;
+  }
+  
+  .weather {
+    flex: 1 0 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../public/images/weatherdashboard.png);
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-radius: 15px;
+    margin: 1%;
+    min-width: 325px;
+    max-width: 50%;
+  }
+
+  .napster a, .herd a, .blog a, .smartbar a {
+    display: block;
+  }
+  .cardText a:hover {
+    color: var(--white);
+  }
+
+.smartbar:hover, .napster:hover, .herd:hover, .blog:hover {
+    transform: scale(1.05);
+  }
+
+  .githubLogo:hover {
+    transform: scale(1.2);
+  }
