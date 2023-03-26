@@ -4,8 +4,14 @@ import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 import Resume from "./pages/Resume";
 import Contact from "./pages/Contact";
-import Footer from "./Footer"
+import Footer from "./Footer";
 import "../styles/reset.css";
+
+const styles = {
+  backgroungStyles: {
+    backgroundColor: "black",
+  },
+};
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState("About");
@@ -28,10 +34,10 @@ export default function PortfolioContainer() {
   return (
     <div>
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
-      <figure class="hero-image">
-      {renderPage()}
-      </figure>
-      <Footer/>
+      <div style={styles.backgroungStyles}>
+        <figure class="hero-image">{renderPage()}</figure>
+      </div>
+      <Footer />
     </div>
   );
 }

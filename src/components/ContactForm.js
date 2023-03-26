@@ -2,6 +2,27 @@ import React, { useState } from "react";
 import { validateEmail } from "../utils/helpers";
 import {send} from 'emailjs-com';
 
+const styles = {
+  textName: {
+    width: 200,
+    marginBottom: 30,
+    marginTop: 30,
+  },
+
+    textEmail: {
+    width: 300,
+    marginBottom: 30,
+  },
+    textMessage: {
+    width: 400,
+    height: 200,
+    marginBottom: 30,
+  },
+  button: {
+    width: 200
+  }
+
+}
 
 function ContactForm() {
   const [name, setName] = useState("");
@@ -59,13 +80,15 @@ function ContactForm() {
 
   return (
     <div>
-      <form>
+      <form className="d-flex flex-column">
         <input
           value={name}
           name="name"
           onChange={handleInputChange}
           type="name"
           placeholder="name"
+          style={styles.textName}
+
         ></input>
         <input
           value={email}
@@ -73,6 +96,8 @@ function ContactForm() {
           onChange={handleInputChange}
           type="email"
           placeholder="email"
+          style={styles.textEmail}
+
         ></input>
         <input
           value={message}
@@ -80,13 +105,14 @@ function ContactForm() {
           onChange={handleInputChange}
           type="message"
           placeholder="message"
+                    style={styles.textMessage}
         ></input>
         {errorMessage && (
           <div>
             <p className="error-text">{errorMessage}</p>
           </div>
         )}
-        <button type="button" onClick={handleFormSubmit}>
+        <button type="button" onClick={handleFormSubmit} className="btn btn-light btn-large" style={styles.button}>
           Submit
         </button>
       </form>
