@@ -1,19 +1,22 @@
 import React from "react";
+import Project from "../Project";
+import projects from "../../projects";
 import "../../styles/portfolio.css";
 
 const styles = {
   header: {
     paddingLeft: 40,
     paddingBottom: 40,
-    paddingTop:20,
+    paddingTop: 20,
   },
-}
+};
 
 export default function Portfolio() {
   return (
     <div className="work">
       <h1 style={styles.header}>Some of My Work</h1>
-      <div className="workcontainer">
+      <Project projects={projects} />
+      {/* <div className="workcontainer">
         <div className="napster">
           <a
             href="https://jaugsbu2.github.io/napster2.0-with-youtube/"
@@ -94,7 +97,7 @@ export default function Portfolio() {
             </a>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

@@ -109,14 +109,14 @@ border-radius: 10px;
     max-width: 50%;
   }
 
-  .napster a, .herd a, .blog a, .smartbar a {
+  .napster a, .herd a, .blog a, .smartbar a, .weather a {
     display: block;
   }
   .cardText a:hover {
     color: var(--white);
   }
 
-.smartbar:hover, .napster:hover, .herd:hover, .blog:hover {
+.smartbar:hover, .napster:hover, .herd:hover, .blog:hover, .weather:hover {
     transform: scale(1.05);
   }
 
