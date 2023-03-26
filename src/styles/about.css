@@ -4,10 +4,12 @@
     --gray: lightgray;
   }
 
+
 .aboutcontainer {
     margin: auto;
     padding: 0 px;
     justify-content: center;
+    padding-bottom: 80px;
   }
 
   .aboutflex {
@@ -26,6 +28,9 @@
 
   @media (max-width: 768px) {
   
+    /* .aboutcontainer {
+
+    } */
     .aboutcontainer .p{
       flex-direction: column;
       align-items: center;

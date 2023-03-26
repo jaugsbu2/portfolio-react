@@ -1,22 +1,20 @@
 import React from "react";
-import "../styles/nav.css";
+
 const styles = {
-  navStyles: {
-      background: 'black',
-      height: 70,
-      position: 'fixed',
-      top: 0,
-      width: '100%',
-
-
+  name: {
+paddingLeft: 20,
   },
+
+  navPills: {
+    color: 'white',
+  }
 
 }
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <div className="nav justify-content-between align-items-center" style={styles.navStyles}>
-      <h3>Josh Augsburger</h3>
+    <div className="nav navStyle">
+      <h3 style={styles.name}>Josh Augsburger</h3>
       <ul className="nav nav-pills">
         <li className="nav-item">
           <a

@@ -1,9 +1,26 @@
-
-.nav-link {
-    color: whitesmoke;
+.navStyle {
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  height: 70px;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .active {
-    background-color: whitesmoke;
-    color: black;
+  background-color: lightslategrey !important;
+  color: black !important;
+}
+
+.nav-link {
+    color: whitesmoke !important;
+}
+
+@media (max-width: 768px) {
+  .navStyle {
+    height: 110px;
+    justify-content: center;
+    flex-direction: column;
+  }
 }

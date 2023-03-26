@@ -12,14 +12,23 @@ const downloadResume = () => {
   })
 }
 
+const styles = {
+  button: {
+    marginTop: 10,
+    marginBottom: 30,
+    width: 300,
+  }
+}
+
 export default function Resume() {
   return (
-    <div>
-      <h1>Resume</h1>
-      <button onClick={downloadResume}>Download Resume</button>
-      <h2>
+    <div className='d-flex flex-column'>
+      {/* <h1>Resume</h1> */}
+      <button onClick={downloadResume} className="btn btn-light btn-large" style={styles.button}>Download Resume</button>
+      <h3><u>
         Web Development Proficiencies
-      </h2>
+        </u>
+      </h3>
       <h3>
         Front End
       </h3>
