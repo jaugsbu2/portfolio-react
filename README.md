@@ -1,4 +1,4 @@
-![license badge](/images/license-MIT-License-yellow.svg)
+![license badge](/public/images/license-MIT-License-yellow.svg)
 
   # My Portfolio
 
@@ -17,7 +17,8 @@ This is my portfolio website showcasing who I am, some of my work, and how to co
   
   ## Installation
   
-  Please visit: 
+  Please visit: https://jaugsbu2.github.io/portfolio-react/#about
+  <br><br>
   Or to run locally on the integrated terminal run the sequence of comamands to start the application:<br><br>
   npm i<br>
   npm start<br><br>
