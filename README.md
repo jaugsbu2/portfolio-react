@@ -1,4 +1,4 @@
-![license badge](/public/images/license-MIT-License-yellow.svg)
+![license badge](/public/license-MIT-License-yellow.svg)
 
   # My Portfolio
 
