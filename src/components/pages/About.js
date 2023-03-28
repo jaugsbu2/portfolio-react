@@ -1,5 +1,6 @@
 import React from "react";
 import "../../styles/about.css";
+import me from "../../assets/about-pic.jpg"
 
 const styles = {
   header: {
@@ -15,20 +16,17 @@ export default function About() {
       <h1 style={styles.header}>Welcome</h1>
       <div className="aboutcontainer">
         <div className="p aboutflex">
-        <img src="images/about-pic.jpeg" alt="Josh Augsburger Picture"></img>
+        <img src={me} alt="Josh Augsburger Picture"></img>
         <p>
-        As the son of the local small engine repair shop owner located in a
-          small farming community in Ohio, it was an easy decision to get a
-          Bachelors Degree in Mechanical Engineering after high school. After
-          college I worked with GE Appliances in Louisvillle, KY. While
-          completing the GE rotational engineering development program I got a
-          Masters Degree in Mechanical Engineering, specializing in appliance
+        As the son of a small engine repair shop owner located in a
+          small farming community in Ohio, it was an easy decision to go to college for Mechanical Engineering. 
+          While in college i did numerous internships with GE Appliances in Louisvillle, KY and, after graduating, I joined the General Electric Edison Engineering Development program where I got a
+          Masters Degree in Mechanical Engineering specializing in appliance
           design. I then decided to take a Senior Mechanical Engineering role
           with Smart Bar USA and moved into the Engineering Manager posiition
-          for the company as the team grew. After a few years of managing the
-          team, I decided to try to learn something new 
+          for the company as the team grew. A few months ago, I decided to try to learn something new 
           and signed up a Software Development Bootcamp. Since being in
-          the UC Berkeley Bootcamp, I have found software development to be very
+          the UC Berkeley Software Engineering Bootcamp, I have found full stack software development to be very
           interesting and fun!<br></br>
           <br></br>
           

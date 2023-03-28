@@ -1,12 +1,13 @@
 import React from 'react';
+import resume from '../../assets/josh-augsburger-resume.pdf'
 
 const downloadResume = () => {
-  fetch('resume.pdf').then(response => {
+  fetch(resume).then(response => {
     response.blob().then(blob => {
       const fileURL = window.URL.createObjectURL(blob);
       let alink = document.createElement('a');
       alink.href = fileURL;
-      alink.download = 'josh-augsburger-resume.pdf';
+      alink.download = resume;
       alink.click();
     })
   })

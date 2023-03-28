@@ -39,7 +39,7 @@
 }
 
 .githubLogo {
-background-image: url(../../public/images/github-mark-white.png);
+background-image: url(../assets/github-mark-white.png);
 background-position: center;
 background-repeat: no-repeat;
 background-size: contain;
@@ -55,7 +55,7 @@ border-radius: 10px;
 
 .napster {
   flex: 1 0 0;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../public/images/Napster2.0app.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets/Napster2.0app.png);
     height: 250px;
     background-position: center;
     background-repeat: no-repeat;
@@ -69,7 +69,7 @@ border-radius: 10px;
 
   .herd {
     flex: 1 0 0;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../public/images/herdapp.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets/herdapp.png);
     height: 250px;
     background-position: center;
     background-repeat: no-repeat;
@@ -83,7 +83,7 @@ border-radius: 10px;
   
   .blog {
     flex: 1 0 0;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../public/images/blog.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets/blog.png);
     height: 250px;
     background-position: center;
     background-repeat: no-repeat;
@@ -97,7 +97,7 @@ border-radius: 10px;
   
   .weather {
     flex: 1 0 0;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../public/images/weatherdashboard.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets/weatherdashboard.png);
     height: 250px;
     background-position: center;
     background-repeat: no-repeat;

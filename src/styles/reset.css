@@ -38,7 +38,7 @@ ul {
 
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.95)),
-    url(../../public/images/401-trail.jpg);
+    url(../assets/401-trail.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
