@@ -25,8 +25,8 @@ export default function About() {
           design. I then decided to take a Senior Mechanical Engineering role
           with Smart Bar USA and moved into the Engineering Manager posiition
           for the company as the team grew. A few months ago, I decided to try to learn something new 
-          and signed up a Software Development Bootcamp. Since being in
-          the UC Berkeley Software Engineering Bootcamp, I have found full stack software development to be very
+          and enrolled in a coding bootcamp. Since being in
+          the UC Berkeley Coding Bootcamp, I have found full stack web development to be very
           interesting and fun!<br></br>
           <br></br>
           
