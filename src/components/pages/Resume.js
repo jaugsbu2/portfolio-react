@@ -6,7 +6,7 @@ const downloadResume = () => {
       const fileURL = window.URL.createObjectURL(blob);
       let alink = document.createElement('a');
       alink.href = fileURL;
-      alink.download = 'resume.pdf';
+      alink.download = 'josh-augsburger-resume.pdf';
       alink.click();
     })
   })
