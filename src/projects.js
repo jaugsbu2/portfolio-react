@@ -1,5 +1,13 @@
 const projects = [
     {
+        id: 5,
+        name: 'Service Booking App',
+        class: 'service',
+        githubURL: 'https://github.com/mkalik/service-booker-application',
+        deploymentURL: "https://powerful-refuge-32093.herokuapp.com/",
+        imageSrc: 'images/homepage.png'
+    },
+    {
         id: 1,
         name: 'Napster Music Video Player',
         class: 'napster',
@@ -31,6 +39,7 @@ const projects = [
         deploymentURL: "https://jaugsbu2.github.io/06-challenge-weather-dashboard/",
         imageSrc: 'images/Napster2.0app.png'
     },
+    
 ]
 
 export default projects;

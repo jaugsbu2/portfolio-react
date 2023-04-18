@@ -108,15 +108,28 @@ border-radius: 10px;
     min-width: 325px;
     max-width: 50%;
   }
+  .service {
+    flex: 1 0 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets/homepage.png);
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-radius: 15px;
+    margin: 1%;
+    min-width: 325px;
+    max-width: 50%;
+  }
 
-  .napster a, .herd a, .blog a, .smartbar a, .weather a {
+  .napster a, .herd a, .blog a, .smartbar a, .weather a, .service a {
     display: block;
   }
   .cardText a:hover {
     color: var(--white);
   }
 
-.smartbar:hover, .napster:hover, .herd:hover, .blog:hover, .weather:hover {
+.smartbar:hover, .napster:hover, .herd:hover, .blog:hover, .weather:hover, .service:hover {
     transform: scale(1.05);
   }
 
